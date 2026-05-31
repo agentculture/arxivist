@@ -1,6 +1,6 @@
 [project]
 name = "arxivist"
-version = "0.1.4"
+version = "0.1.5"
 description = "Agent + CLI that fetches arXiv papers, maintains a knowledge base, implements paper solutions, and benchmarks them against the papers' claims."
 readme = "README.md"
 license = "MIT"
