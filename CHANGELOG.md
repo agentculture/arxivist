@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). This project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.4] - 2026-05-31
+
+### Changed
+
+- Replaced the seed/bootstrap CLAUDE.md with a full runtime guidance file (via /init): documents that the repo currently ships the culture-agent-template scaffold (the arXiv domain is not yet built), the uv-based build/test/lint commands, the agent-first argparse CLI architecture (register() extension point, CliError + exit-code contract, strict stdout/stderr split, explain catalog), and the CI conventions (version-bump-every-PR, the teken rubric gate, SonarCloud coverage).
+
 ## [0.1.3] - 2026-05-31
 
 ### Changed
